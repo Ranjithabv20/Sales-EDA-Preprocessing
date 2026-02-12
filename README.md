@@ -1,9 +1,8 @@
 # Sales-EDA-Preprocessing
 Sales EDA &amp; preprocessing pipeline for machine learning using Python, including outlier treatment, encoding, scaling, and correlation analysis.
 
-# 📊 Sales Data EDA & Preprocessing
 
-## 📌 Project Overview
+##  Project Overview
 This project performs exploratory data analysis and preprocessing on sales data to prepare it for machine learning models.
 
 ##  Dataset Used
