@@ -1,32 +1,40 @@
 # Sales-EDA-Preprocessing
-Sales EDA &amp; preprocessing pipeline for machine learning using Python, including outlier treatment, encoding, scaling, and correlation analysis.
+Exploratory Data Analysis (EDA) and data preprocessing on retail sales dataset including missing value treatment, IQR-based outlier detection, feature encoding, correlation analysis, and data visualization using Python.
 
 
 ##  Project Overview
-This project performs exploratory data analysis and preprocessing on sales data to prepare it for machine learning models.
+This project performs comprehensive Exploratory Data Analysis (EDA) and data preprocessing on a retail sales dataset. The objective is to clean, analyze, and prepare the data for regression modeling.
 
-##  Dataset Used
-- Source: sales.csv  
-- Key Columns:
-  - QUANTITYORDERED
-  - PRICEEACH
-  - STATUS
-  - PRODUCTLINE
-  - DEALSIZE
-  - SALES (Target Variable)
+ Key Tasks Performed-
+## Data Cleaning
 
-##  Steps Performed
-- Loaded and cleaned the dataset
-- Handled missing values
-- Applied one-hot encoding to categorical variables
-- Detected and treated outliers using IQR method
-- Performed correlation analysis
-- Split data into training and testing sets
-- Applied feature scaling and normalization
+Missing value imputation (mean/median), Categorical value handling, Feature selection
 
-##  Outcome
-Prepared a clean, structured, and model-ready dataset for sales prediction using machine learning algorithms.
+## Feature Engineering
 
+One-hot encoding for categorical variables, Train-test split
 
-- Applied feature scaling to ensure balanced input for machine learning algorithms.
-- Prepared a clean and structured dataset ready for sales prediction models.
+## Outlier Detection
+
+IQR (Interquartile Range) method, Median replacement for extreme values
+
+## Summary Statistics
+
+Descriptive statistics (describe()), Correlation matrix analysis
+
+## EDA Visualizations
+
+Sales distribution (Histogram + KDE), Sales outlier detection (Boxplot), Correlation heatmap
+
+## Data Scaling
+
+StandardScaler, Normalization
+
+## Technologies Used
+
+Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+
+## Outcome
+
+Cleaned and preprocessed dataset ready for regression modeling and predictive analytics.
+
